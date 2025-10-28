@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#superior {
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+#encabezado {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#imgDesc {
+    overflow: hidden;
+}
+
+#imgDesc img {
+    float: left;
+    margin-right: 20px;
+}
+
+#descripcion {
+    width: 360px;
+    height: 360px;
+    float: right;
+}
+
+#descripcion p {
+    margin: 20px;
+    text-align: justify;
+}
+
+#principal {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+#contenido {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.plan {
+    float: left;
+    width: 258px;
+    padding: 20px;
+    margin: 30px 15px;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.plan img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.plan h1 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.boton a {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #1b75d0;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.boton a:hover {
+    background-color: #145ba3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.planes {
+    width: 900px;
+    padding: 10px 30px;
+    margin: 30px auto;
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.planes h1 {
+    margin-bottom: 10px;
+}
+
+.planes img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.precio {
+    font-weight: bold;
+    color: #1b75d0;
+}
+
+
+#galeria {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#galeria .plan {
+    display: inline-block;
+    width: 260px;
+    margin: 30px 1.4% 10px;
+    vertical-align: top;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#galeria .plan img {
+    width: 100%;
+    border-radius: 8px;
+    height: auto;
+}
+
+#galeria .plan p {
+    margin-top: 10px;
+    font-size: 14px;
+}
